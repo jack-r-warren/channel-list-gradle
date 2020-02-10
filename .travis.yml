@@ -16,6 +16,7 @@ deploy:
   provider: netlify
   edge: true
   dir: build/distributions
+  prod: true
   site:
     secure: k5IjNv4gCdpSanT2sBxXlBqKJ+bTrpuAxGhk/Qg136Jd1grbBjBspQjjKAebLM6cPfD0hoocZO/eF2s5cAGVdCnXbNV9meYdH5lRoeh0LGWaHwJopkLQO/wpsywDH8JIyED6vGWh+LZ2N6pXBJgvOigSC/liPSh5Vzbfz/W58C87Jxt3XOaoQOTT08+vqgvO9MoblAjhHteY/4eoPRDP+H0x7TSM4su3n/5ubJ7tvpHEhLXGQN4UfQgEOH0eVnXh6ll0PCCOv8CkDyFvHipJ9mJa99nmBSLlDKOADqgT0o9wRH27JCbLWfDGGtDtPszmZZoWggB+56EMoRDEjdEZ+QtrX+Gja350mkx7IvpoorlJ04VZKqO/Wbnr9mcdFHOhpCpMzsxDCGmhk3iIToX//G8iNEQK3lQ390UdxFXD7HAE5GijF3nKGoynXxD+n7OfMKBkLAuEjAZL/HvBGkxZkiPJI7L0AyQlnj5sd+zKAPNR+c0ZF+BEJ0xAvmU91bn6LXFViOKCnZyW/UZAttx5/+19fkyPt10JUEaCL2jStidMCrIfmnc6WJyRrl0U38vir8C81VUosrX/EYCgD/gULV15vvftXMroaMAz9UnfpBpz8gLH4I1mr7sqXQXWIdpABjJwMXy3uAQx6YSPyQGIGR51wbu4nF5INJ4meJFSPkc=
   auth:
