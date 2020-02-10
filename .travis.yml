@@ -3,13 +3,20 @@ jdk:
   - openjdk8
 before_install:
   - chmod +x gradlew
-  - chmod +x gradle/wrapper/gradle-wrapper.jar
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 cache:
   directories:
-    - $HOME/.gradle/caches/
-    - $HOME/.gradle/wrapper/
+    - "$HOME/.gradle/caches/"
+    - "$HOME/.gradle/wrapper/"
 script:
-  - ./gradlew build
+  - "./gradlew build"
+deploy:
+  provider: netlify
+  edge: true
+  dir: build/distributions
+  site:
+    secure: k5IjNv4gCdpSanT2sBxXlBqKJ+bTrpuAxGhk/Qg136Jd1grbBjBspQjjKAebLM6cPfD0hoocZO/eF2s5cAGVdCnXbNV9meYdH5lRoeh0LGWaHwJopkLQO/wpsywDH8JIyED6vGWh+LZ2N6pXBJgvOigSC/liPSh5Vzbfz/W58C87Jxt3XOaoQOTT08+vqgvO9MoblAjhHteY/4eoPRDP+H0x7TSM4su3n/5ubJ7tvpHEhLXGQN4UfQgEOH0eVnXh6ll0PCCOv8CkDyFvHipJ9mJa99nmBSLlDKOADqgT0o9wRH27JCbLWfDGGtDtPszmZZoWggB+56EMoRDEjdEZ+QtrX+Gja350mkx7IvpoorlJ04VZKqO/Wbnr9mcdFHOhpCpMzsxDCGmhk3iIToX//G8iNEQK3lQ390UdxFXD7HAE5GijF3nKGoynXxD+n7OfMKBkLAuEjAZL/HvBGkxZkiPJI7L0AyQlnj5sd+zKAPNR+c0ZF+BEJ0xAvmU91bn6LXFViOKCnZyW/UZAttx5/+19fkyPt10JUEaCL2jStidMCrIfmnc6WJyRrl0U38vir8C81VUosrX/EYCgD/gULV15vvftXMroaMAz9UnfpBpz8gLH4I1mr7sqXQXWIdpABjJwMXy3uAQx6YSPyQGIGR51wbu4nF5INJ4meJFSPkc=
+  auth:
+    secure: LpM5WQ0PLmPY55h/izgH/O61s5oOumrg6rXeFQf7utP41UsRkBumpPjZE3a53fINZkLHiQzwcZfoqjGrv0W+LfOkO7sJ1Krz8pYCNhfCA9xYYUIreeptNBP8v7rZIbEMNs7IFR3ucvdqV3ilJW/U83rlwlzwBLveD9KjSjLCTUuUEbEDwK0QSGGqMdoXSqwL9eFXhsk/kQhd+2XFmu0DlaZtnKCxBGih69KLGc7i4UeFZ47xZ465bPY7uX2+AurU9K0K3vX0AkRP5Gs0sFWxWmk0wRVnMT8C6D1Q47i3gqXUKM/0kgKhcCcchuwjV764cr9ZScHbbVvgPAY7fgXi+pHsz8uH6Vx1OiYgO/r0HVgBndqTVCtt37iiPFZtVwwJ5S3paWgb3t37/21ZJoeRiMWzYfpWh6pyTtCIB6FmeHuo75LNIV2jJKBwIpTqdOWaCpO/Ren8uszCqL/Fz5CyVahYkoT47H79c+nxCrQXYBfXwiFk1CT5tONB/ysHDYeCY3JzemCTejbiX6oDa1Lg0mZCYJEwnmxbcvcZic4QY8wNIHg0+qXMBPtgDw4aMKEK2i624Cvv40zKq/eZd3gIAycxoGsg6H5hoPYWwBIqpJ3AX1ZUnbor55dn6ZNxtrOq4LeD1ovy70seLhFbWwKIwSidm6kHqerxIhQEdEPV6ig=
