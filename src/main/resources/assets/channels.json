@@ -1,0 +1,836 @@
+[
+  {
+    "number": "2.2",
+    "shortName": "World",
+    "longName": "WORLD",
+    "recast": true
+  },
+  {
+    "number": "2.3",
+    "shortName": "WGBH-SD",
+    "longName": "PBS",
+    "recast": true
+  },
+  {
+    "number": "4.1",
+    "shortName": "WBZ-DT",
+    "longName": "CBS 4",
+    "recast": true
+  },
+  {
+    "number": "4.2",
+    "shortName": "WBZ 4.2",
+    "longName": "STARTTV",
+    "recast": true
+  },
+  {
+    "number": "4.3",
+    "shortName": "WBZ 4.3",
+    "longName": "Dabl Network",
+    "recast": true
+  },
+  {
+    "number": "5.1",
+    "shortName": "WCVB",
+    "longName": "WCVB Channel 5",
+    "recast": true
+  },
+  {
+    "number": "5.2",
+    "shortName": "MeTV",
+    "longName": "METVN",
+    "recast": true
+  },
+  {
+    "number": "7.1",
+    "shortName": "WHDH",
+    "longName": "WHDHDT",
+    "recast": true
+  },
+  {
+    "number": "7.2",
+    "shortName": "THIS-TV",
+    "longName": "THIS",
+    "recast": true
+  },
+  {
+    "number": "10.1",
+    "shortName": "NBC",
+    "longName": "NBC",
+    "recast": true
+  },
+  {
+    "number": "10.2",
+    "shortName": "MeTV",
+    "longName": "METVN",
+    "recast": true
+  },
+  {
+    "number": "10.3",
+    "shortName": "Comet",
+    "longName": "COMET",
+    "recast": true
+  },
+  {
+    "number": "10.4",
+    "shortName": "TBD",
+    "longName": "TBD",
+    "recast": true
+  },
+  {
+    "number": "15.1",
+    "shortName": "WBTS-CD",
+    "longName": "NBC",
+    "recast": true
+  },
+  {
+    "number": "15.2",
+    "shortName": "Cozi",
+    "longName": "COZITV",
+    "recast": true
+  },
+  {
+    "number": "25.1",
+    "shortName": "WFXT",
+    "longName": "Fox 25",
+    "recast": true
+  },
+  {
+    "number": "25.2",
+    "shortName": "ESCAPE",
+    "longName": "MYS",
+    "recast": true
+  },
+  {
+    "number": "25.3",
+    "shortName": "LAFF",
+    "longName": "LAFF",
+    "recast": true
+  },
+  {
+    "number": "26.1",
+    "shortName": "WCEA",
+    "longName": "WCEALD",
+    "recast": true
+  },
+  {
+    "number": "26.2",
+    "shortName": "TELESUR",
+    "longName": "WCEALD2",
+    "recast": true
+  },
+  {
+    "number": "26.3",
+    "shortName": "VoA",
+    "longName": "WCEALD3",
+    "recast": true
+  },
+  {
+    "number": "26.4",
+    "shortName": "Dom.REP",
+    "longName": "WCEALD4",
+    "recast": true
+  },
+  {
+    "number": "26.5",
+    "shortName": "Colomb.",
+    "longName": "WCEALD5",
+    "recast": true
+  },
+  {
+    "number": "26.6",
+    "shortName": "DOM.REP",
+    "longName": "WCEALD6",
+    "recast": true
+  },
+  {
+    "number": "27.1",
+    "shortName": "WUTF-DT",
+    "longName": "UNIMAS",
+    "recast": true
+  },
+  {
+    "number": "27.2",
+    "shortName": "LATV",
+    "longName": "LATV",
+    "recast": true
+  },
+  {
+    "number": "27.3",
+    "shortName": "TBD",
+    "longName": "TBD",
+    "recast": true
+  },
+  {
+    "number": "27.4",
+    "shortName": "Stadium",
+    "longName": "STADIUM",
+    "recast": true
+  },
+  {
+    "number": "27.5",
+    "shortName": "CourtTV",
+    "longName": "COURT",
+    "recast": true
+  },
+  {
+    "number": "38.1",
+    "shortName": "WSBK-TV",
+    "longName": "MY TV",
+    "recast": true
+  },
+  {
+    "number": "38.2",
+    "shortName": "WSBK.2",
+    "longName": "HEROICN",
+    "recast": true
+  },
+  {
+    "number": "38.3",
+    "shortName": "WSBK.3",
+    "longName": "COMET",
+    "recast": true
+  },
+  {
+    "number": "38.4",
+    "shortName": "WSBK.4",
+    "longName": "CHARGE",
+    "recast": true
+  },
+  {
+    "number": "44.2",
+    "shortName": "WGBX-SD",
+    "longName": "PBS",
+    "recast": true
+  },
+  {
+    "number": "44.3",
+    "shortName": "Create",
+    "longName": "CREATE",
+    "recast": true
+  },
+  {
+    "number": "44.4",
+    "shortName": "Kids",
+    "longName": "HD06",
+    "recast": true
+  },
+  {
+    "number": "56.1",
+    "shortName": "WLVI",
+    "longName": "CW",
+    "recast": true
+  },
+  {
+    "number": "56.2",
+    "shortName": "BUZZR",
+    "longName": "BUZZR",
+    "recast": true
+  },
+  {
+    "number": "60.1",
+    "shortName": "WNEU-DT",
+    "longName": "Telemundo Boston",
+    "recast": true
+  },
+  {
+    "number": "60.2",
+    "shortName": "Xitos",
+    "longName": "TLEX",
+    "recast": true
+  },
+  {
+    "number": "2.1",
+    "shortName": "WGBH-HD",
+    "longName": "WGBH-DT",
+    "recast":false
+  },
+  {
+    "number": "5.1",
+    "shortName": "WCVB",
+    "longName": "WCVB-DT",
+    "recast": false
+  },
+  {
+    "number": "7.1",
+    "shortName": "WHDH",
+    "longName": "WHDH-DT",
+    "recast": false
+  },
+  {
+    "number": "7.2",
+    "shortName": "THIS-TV",
+    "longName": "WHDH-DT2",
+    "recast": false
+  },
+  {
+    "number": "15.1",
+    "shortName": "WYCN-CD",
+    "longName": "WYCN-DT",
+    "recast": false
+  },
+  {
+    "number": "25.1",
+    "shortName": "WFXT",
+    "longName": "WFXT-DT",
+    "recast": false
+  },
+  {
+    "number": "25.2",
+    "shortName": "ESCAPE",
+    "longName": "WFXT-DT2",
+    "recast": false
+  },
+  {
+    "number": "27.1",
+    "shortName": "WUTF-DT",
+    "longName": "WUTF-DT",
+    "recast": false
+  },
+  {
+    "number": "27.2",
+    "shortName": "LATV",
+    "longName": "WUTF-DT2",
+    "recast": false
+  },
+  {
+    "number": "28.1",
+    "shortName": "CNN",
+    "longName": "CNN HD",
+    "recast": false
+  },
+  {
+    "number": "28.2",
+    "shortName": "CNBC",
+    "longName": "CNBC HD",
+    "recast": false
+  },
+  {
+    "number": "29.1",
+    "shortName": "MSNBC",
+    "longName": "MSNBC HD",
+    "recast": false
+  },
+  {
+    "number": "29.2",
+    "shortName": "FXNWS",
+    "longName": "Fox News Channel HD",
+    "recast": false
+  },
+  {
+    "number": "30.1",
+    "shortName": "FOXB",
+    "longName": "Fox Business Network HD",
+    "recast": false
+  },
+  {
+    "number": "30.2",
+    "shortName": "BITV",
+    "longName": "Bloomberg HD",
+    "recast": false
+  },
+  {
+    "number": "31.1",
+    "shortName": "CSPN2",
+    "longName": "CSPAN2",
+    "recast": false
+  },
+  {
+    "number": "31.2",
+    "shortName": "HILLS",
+    "longName": "The Hillsong Channel",
+    "recast": false
+  },
+  {
+    "number": "32.1",
+    "shortName": "ESPN",
+    "longName": "ESPN HD",
+    "recast": false
+  },
+  {
+    "number": "32.2",
+    "shortName": "ESPN2",
+    "longName": "ESPN2 HD",
+    "recast": false
+  },
+  {
+    "number": "33.1",
+    "shortName": "ESNWS",
+    "longName": "ESPNews HD",
+    "recast": false
+  },
+  {
+    "number": "33.2",
+    "shortName": "ESPNU",
+    "longName": "ESPNU HD",
+    "recast": false
+  },
+  {
+    "number": "34.1",
+    "shortName": "FOXS1",
+    "longName": "FOX Sports 1 HD",
+    "recast": false
+  },
+  {
+    "number": "34.2",
+    "shortName": "FOXS2",
+    "longName": "FOX Sports 2 HD",
+    "recast": false
+  },
+  {
+    "number": "35.1",
+    "shortName": "NESN",
+    "longName": "New England Sports Network HD",
+    "recast": false
+  },
+  {
+    "number": "35.2",
+    "shortName": "NBCSP",
+    "longName": "NBC Sports Network HD",
+    "recast": false
+  },
+  {
+    "number": "36.1",
+    "shortName": "LHN",
+    "longName": "Longhorn Network HD",
+    "recast": false
+  },
+  {
+    "number": "36.2",
+    "shortName": "SEC",
+    "longName": "SEC HD",
+    "recast": false
+  },
+  {
+    "number": "37.1",
+    "shortName": "BIG10",
+    "longName": "Big Ten Network HD",
+    "recast": false
+  },
+  {
+    "number": "37.2",
+    "shortName": "NFL",
+    "longName": "NFL Network HD",
+    "recast": false
+  },
+  {
+    "number": "38.1",
+    "shortName": "WSBK-TV",
+    "longName": "WSBK-DT",
+    "recast": false
+  },
+  {
+    "number": "38.2",
+    "shortName": "WSBK.2",
+    "longName": "WSBK-DT2",
+    "recast": false
+  },
+  {
+    "number": "38.3",
+    "shortName": "WSBK.3",
+    "longName": "WSBK-DT3",
+    "recast": false
+  },
+  {
+    "number": "38.4",
+    "shortName": "WSBK.4",
+    "longName": "WSBK-DT4",
+    "recast": false
+  },
+  {
+    "number": "39.1",
+    "shortName": "NBATV",
+    "longName": "NBA TV HD",
+    "recast": false
+  },
+  {
+    "number": "39.2",
+    "shortName": "NHLN",
+    "longName": "NHL Network HD",
+    "recast": false
+  },
+  {
+    "number": "40.2",
+    "shortName": "GOLF",
+    "longName": "Golf Channel HD",
+    "recast": false
+  },
+  {
+    "number": "41.1",
+    "shortName": "TNT",
+    "longName": "TNT HD",
+    "recast": false
+  },
+  {
+    "number": "41.2",
+    "shortName": "TBS",
+    "longName": "TBS HD",
+    "recast": false
+  },
+  {
+    "number": "42.1",
+    "shortName": "USA",
+    "longName": "USA Network HD",
+    "recast": false
+  },
+  {
+    "number": "42.2",
+    "shortName": "A&E",
+    "longName": "A&E HD",
+    "recast": false
+  },
+  {
+    "number": "43.1",
+    "shortName": "FX",
+    "longName": "FX HD",
+    "recast": false
+  },
+  {
+    "number": "43.2",
+    "shortName": "FXX",
+    "longName": "FXX HD",
+    "recast": false
+  },
+  {
+    "number": "44.1",
+    "shortName": "WGBX-HD",
+    "longName": "WGBX-DT",
+    "recast": false
+  },
+  {
+    "number": "44.3",
+    "shortName": "Create",
+    "longName": "WGBX-DT2",
+    "recast": false
+  },
+  {
+    "number": "45.1",
+    "shortName": "TRU",
+    "longName": "TruTV HD",
+    "recast": false
+  },
+  {
+    "number": "45.2",
+    "shortName": "TVLND",
+    "longName": "TV Land",
+    "recast": false
+  },
+  {
+    "number": "46.1",
+    "shortName": "ION",
+    "longName": "ION",
+    "recast": false
+  },
+  {
+    "number": "46.2",
+    "shortName": "GETTV",
+    "longName": "getTV",
+    "recast": false
+  },
+  {
+    "number": "47.1",
+    "shortName": "LIFE",
+    "longName": "Lifetime HD",
+    "recast": false
+  },
+  {
+    "number": "47.2",
+    "shortName": "WE",
+    "longName": "WE tv HD",
+    "recast": false
+  },
+  {
+    "number": "48.1",
+    "shortName": "OWN",
+    "longName": "OWN HD",
+    "recast": false
+  },
+  {
+    "number": "48.2",
+    "shortName": "OXYGN",
+    "longName": "Oxygen",
+    "recast": false
+  },
+  {
+    "number": "49.1",
+    "shortName": "BRAVO",
+    "longName": "Bravo HD",
+    "recast": false
+  },
+  {
+    "number": "49.2",
+    "shortName": "HGTV",
+    "longName": "HGTV HD",
+    "recast": false
+  },
+  {
+    "number": "51.1",
+    "shortName": "FOOD",
+    "longName": "Food Network HD",
+    "recast": false
+  },
+  {
+    "number": "51.2",
+    "shortName": "COOK",
+    "longName": "Cooking Channel HD",
+    "recast": false
+  },
+  {
+    "number": "52.1",
+    "shortName": "SYFY",
+    "longName": "Syfy Channel HD",
+    "recast": false
+  },
+  {
+    "number": "52.2",
+    "shortName": "MT",
+    "longName": "Motor Trend Network HD",
+    "recast": false
+  },
+  {
+    "number": "53.1",
+    "shortName": "MTVL",
+    "longName": "MTV Live HD",
+    "recast": false
+  },
+  {
+    "number": "53.2",
+    "shortName": "MTV",
+    "longName": "MTV HD",
+    "recast": false
+  },
+  {
+    "number": "54.1",
+    "shortName": "MTV2",
+    "longName": "MTV2",
+    "recast": false
+  },
+  {
+    "number": "54.2",
+    "shortName": "VH1",
+    "longName": "VH1 HD",
+    "recast": false
+  },
+  {
+    "number": "55.1",
+    "shortName": "FUSE",
+    "longName": "Fuse HD",
+    "recast": false
+  },
+  {
+    "number": "55.2",
+    "shortName": "CMT",
+    "longName": "CMT HD",
+    "recast": false
+  },
+  {
+    "number": "56.1",
+    "shortName": "WLVI",
+    "longName": "WLVI-DT",
+    "recast": false
+  },
+  {
+    "number": "57.1",
+    "shortName": "AXS",
+    "longName": "AXS TV HD",
+    "recast": false
+  },
+  {
+    "number": "57.2",
+    "shortName": "FM",
+    "longName": "FM",
+    "recast": false
+  },
+  {
+    "number": "58.1",
+    "shortName": "BET",
+    "longName": "BET HD",
+    "recast": false
+  },
+  {
+    "number": "58.2",
+    "shortName": "PRST",
+    "longName": "Pursuit Channel",
+    "recast": false
+  },
+  {
+    "number": "59.1",
+    "shortName": "FRFM",
+    "longName": "Freeform HD",
+    "recast": false
+  },
+  {
+    "number": "59.2",
+    "shortName": "APL",
+    "longName": "Animal Planet HD",
+    "recast": false
+  },
+  {
+    "number": "60.1",
+    "shortName": "E!",
+    "longName": "E! Entertainment HD",
+    "recast": false
+  },
+  {
+    "number": "60.2",
+    "shortName": "CMDY",
+    "longName": "Comedy Central HD",
+    "recast": false
+  },
+  {
+    "number": "61.1",
+    "shortName": "TOON",
+    "longName": "Cartoon Network HD",
+    "recast": false
+  },
+  {
+    "number": "61.2",
+    "shortName": "DISE",
+    "longName": "Disney Channel HD",
+    "recast": false
+  },
+  {
+    "number": "63.1",
+    "shortName": "DISXD",
+    "longName": "Disney XD",
+    "recast": false
+  },
+  {
+    "number": "63.2",
+    "shortName": "DISJR",
+    "longName": "Disney Jr.",
+    "recast": false
+  },
+  {
+    "number": "64.1",
+    "shortName": "NICK",
+    "longName": "Nickelodeon HD",
+    "recast": false
+  },
+  {
+    "number": "64.2",
+    "shortName": "TNCK",
+    "longName": "TeenNick",
+    "recast": false
+  },
+  {
+    "number": "65.1",
+    "shortName": "WN",
+    "longName": "Weather Nation HD",
+    "recast": false
+  },
+  {
+    "number": "65.2",
+    "shortName": "WEATH",
+    "longName": "The Weather Channel HD",
+    "recast": false
+  },
+  {
+    "number": "67.1",
+    "shortName": "BBCA",
+    "longName": "BBC America HD",
+    "recast": false
+  },
+  {
+    "number": "67.2",
+    "shortName": "TRV",
+    "longName": "Travel Channel HD",
+    "recast": false
+  },
+  {
+    "number": "69.1",
+    "shortName": "TLC",
+    "longName": "TLC HD",
+    "recast": false
+  },
+  {
+    "number": "69.2",
+    "shortName": "HIST",
+    "longName": "History Channel HD",
+    "recast": false
+  },
+  {
+    "number": "70.1",
+    "shortName": "DISC",
+    "longName": "Discovery Channel HD",
+    "recast": false
+  },
+  {
+    "number": "70.2",
+    "shortName": "NTGEO",
+    "longName": "National Geographic HD",
+    "recast": false
+  },
+  {
+    "number": "71.1",
+    "shortName": "HLMRK",
+    "longName": "Hallmark Channel HD",
+    "recast": false
+  },
+  {
+    "number": "71.2",
+    "shortName": "HMM",
+    "longName": "Hallmark Movies & Mysteries HD",
+    "recast": false
+  },
+  {
+    "number": "72.1",
+    "shortName": "NICKT",
+    "longName": "WGN America HD",
+    "recast": false
+  },
+  {
+    "number": "72.2",
+    "shortName": "PARAM",
+    "longName": "Paramount Network HD",
+    "recast": false
+  },
+  {
+    "number": "73.1",
+    "shortName": "REELZ",
+    "longName": "ReelzChannel HD",
+    "recast": false
+  },
+  {
+    "number": "73.2",
+    "shortName": "POP",
+    "longName": "POP HD",
+    "recast": false
+  },
+  {
+    "number": "74.1",
+    "shortName": "IFC",
+    "longName": "IFC HD",
+    "recast": false
+  },
+  {
+    "number": "74.2",
+    "shortName": "AMC",
+    "longName": "AMC HD4.1",
+    "recast": false
+  },
+  {
+    "number": "80.1",
+    "shortName": "SHOW",
+    "longName": "Showtime",
+    "recast": false
+  },
+  {
+    "number": "80.2",
+    "shortName": "SHOW2",
+    "longName": "Showtime Too",
+    "recast": false
+  },
+  {
+    "number": "81.1",
+    "shortName": "SHOWCSE",
+    "longName": "Showtime Showcase",
+    "recast": false
+  },
+  {
+    "number": "81.2",
+    "shortName": "SHOWEX",
+    "longName": "Showtime Extreme",
+    "recast": false
+  }
+]
