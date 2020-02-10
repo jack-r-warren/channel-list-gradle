@@ -6,7 +6,11 @@ import kotlinx.coroutines.launch
 import kotlinx.css.*
 import model.Channel
 import react.*
-import styled.*
+import react.dom.br
+import styled.css
+import styled.styledA
+import styled.styledDiv
+import styled.styledP
 import kotlin.browser.window
 
 interface AppState : RState {
@@ -70,6 +74,16 @@ class App : RComponent<RProps, AppState>() {
                     textAlign = TextAlign.center
                 }
                 +"Copyright Jack Warren 2019"
+                br { }
+                styledA(href = "https://github.com/jack-r-warren/channel-list-gradle") {
+                    css {
+                        color = Color("#ECEFF1")
+                        hover {
+                            color = Color("#D4D7D9")
+                        }
+                    }
+                    +"Source available on GitHub"
+                }
             }
         }
     }
@@ -77,8 +91,8 @@ class App : RComponent<RProps, AppState>() {
 }
 
 suspend fun fetchChannels(): Array<Channel> =
-        window.fetch("assets/channels.json")
-                .await()
-                .json()
-                .await()
-                .unsafeCast<Array<Channel>>()
+    window.fetch("assets/channels.json")
+        .await()
+        .json()
+        .await()
+        .unsafeCast<Array<Channel>>()
